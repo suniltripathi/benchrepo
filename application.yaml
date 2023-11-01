@@ -1,1 +1,11 @@
-This is sunil
+spring:
+  application:
+    name: TestConig 
+eureka:
+  client:
+    service-url:
+      defaulZone: http://localhost:8761/eureka
+management:
+  tracing:
+    sampling:
+      probability: 1.0
