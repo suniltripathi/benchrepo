@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: TestConig 
 eureka:
   client:
     service-url:
